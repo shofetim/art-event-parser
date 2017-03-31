@@ -1,0 +1,9 @@
+api:
+  build: .
+  restart: always
+  command: npm start
+  ports:
+    - "80:80"
+  labels:
+    com.joyent.package: g4-highcpu-128M
+    triton.cns.services: art-scraper

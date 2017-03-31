@@ -1,0 +1,7 @@
+api:
+  build: .
+  command: nodemon --exec 'npm start' --legacy-watch
+  ports:
+    - "80:80"
+  volumes:
+    - ./:/app

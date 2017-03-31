@@ -1,0 +1,24 @@
+{
+  "name": "art-event-parser",
+  "version": "1.0.0",
+  "description": "Parse art event websites for structured event data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shofetim/art-event-parser.git"
+  },
+  "author": "Jordan Schatz <jordan@noionlabs.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shofetim/art-event-parser/issues"
+  },
+  "dependencies": {
+    "feedparser": "^2.1.0",
+    "restify": "^4.1.1"
+  },
+  "homepage": "https://github.com/shofetim/art-event-parser#readme"
+}
